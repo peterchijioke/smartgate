@@ -14,9 +14,9 @@ controler.create = async (req, res) => {
   //     return error;
   //   });
 
-  const data = { name: "peter chijioke", age: 28 };
+  const data = { name: req.body.name, pin: req.body.pin };
 
-  res.json(data);
+  console.log(data);
 };
 
 module.exports = controler;
