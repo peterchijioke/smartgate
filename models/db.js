@@ -8,6 +8,13 @@ const config = {
       // database: "node",
       // host: "us-cdbr-east-02.cleardb.com",
       // dialect: "mysql",
+      // be1c7ed0a45009
+
+      // 46368bee
+
+      // us-cdbr-east-02.cleardb.com
+
+      // heroku_8f5390b3834ccab
 
       username: "be1c7ed0a45009",
       password: "46368bee",

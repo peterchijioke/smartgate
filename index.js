@@ -19,6 +19,9 @@ app.use((req, res, next) => {
 // initialize router
 
 app.use("/newUser", require("./routes/userRoute"));
+app.get("/", (req, res) => {
+  res.send("welcome page");
+});
 
 // initialze
 const port = process.env.PORT || 5000;
